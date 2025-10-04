@@ -378,12 +378,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "97cd76e7-2fe8-44e9-b424-65efee228ec7",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -1244,7 +1266,7 @@
           {
             "position": {
               "x": 533.75,
-              "y": -40
+              "y": -30
             },
             "size": {
               "width": 112.5,
@@ -1264,12 +1286,60 @@
               "hasOpenThreats": false
             },
             "zIndex": 27
+          },
+          {
+            "position": {
+              "x": 1077,
+              "y": 260
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Spoofing"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "dca82c9c-635f-48eb-a2e2-b6724cb15397",
+            "data": {
+              "type": "tm.Text",
+              "name": "Spoofing",
+              "hasOpenThreats": false
+            },
+            "zIndex": 28
+          },
+          {
+            "position": {
+              "x": 1277,
+              "y": 80
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Tampering With \nThe Data Using \nThe SQL\n Injection Attack"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "68398980-087c-4290-861e-bcb9d651056b",
+            "data": {
+              "type": "tm.Text",
+              "name": "Tampering With \nThe Data Using \nThe SQL\n Injection Attack",
+              "hasOpenThreats": false
+            },
+            "zIndex": 29
           }
         ]
       }
     ],
     "diagramTop": 1,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 1
   }
 }
