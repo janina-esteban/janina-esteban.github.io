@@ -1159,17 +1159,39 @@
                 "y": 260
               }
             ],
-            "zIndex": 23,
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
-            }
+            "zIndex": 23
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Generic\nTrust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Generic\nTrust Boundary"
+            ],
+            "id": "963d0a7c-9794-4050-bf31-be44838705c8",
+            "source": {
+              "x": 390,
+              "y": 160
+            },
+            "target": {
+              "x": 780,
+              "y": 150
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 230
+              }
+            ],
+            "zIndex": 24
           }
         ]
       }
