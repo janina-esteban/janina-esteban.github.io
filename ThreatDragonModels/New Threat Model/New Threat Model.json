@@ -1192,6 +1192,78 @@
               }
             ],
             "zIndex": 24
+          },
+          {
+            "position": {
+              "x": 124,
+              "y": 260
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Spoofing"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "62b63e7a-e1b5-4934-91c0-a06bf20732ac",
+            "zIndex": 25,
+            "data": {
+              "type": "tm.Text",
+              "name": "Spoofing",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 533.75,
+              "y": 480
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Spoofing"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "b8318126-18a0-4e7f-8497-991319978700",
+            "data": {
+              "type": "tm.Text",
+              "name": "Spoofing",
+              "hasOpenThreats": false
+            },
+            "zIndex": 26
+          },
+          {
+            "position": {
+              "x": 533.75,
+              "y": -40
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Elevation of Privilege"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "fa02698b-847b-461a-ab08-8ef5e852de85",
+            "data": {
+              "type": "tm.Text",
+              "name": "Elevation of Privilege",
+              "hasOpenThreats": false
+            },
+            "zIndex": 27
           }
         ]
       }
