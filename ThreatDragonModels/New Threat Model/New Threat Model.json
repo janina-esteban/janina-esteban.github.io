@@ -259,8 +259,8 @@
           },
           {
             "position": {
-              "x": 390,
-              "y": 70.00000000000028
+              "x": 520,
+              "y": 50
             },
             "size": {
               "width": 160,
@@ -469,13 +469,13 @@
               "y": 220
             },
             "target": {
-              "x": 380,
-              "y": 220
+              "x": 520,
+              "y": 200
             },
             "vertices": [
               {
-                "x": 320,
-                "y": 250
+                "x": 390,
+                "y": 260
               }
             ]
           },
@@ -529,6 +529,126 @@
               }
             ],
             "zIndex": 11
+          },
+          {
+            "position": {
+              "x": 520,
+              "y": -190
+            },
+            "size": {
+              "width": 160,
+              "height": 170
+            },
+            "attrs": {
+              "text": {
+                "text": "Administrator\nDashboard"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "2fbb7306-53d9-4057-bfc6-7a7b759d17c8"
+                },
+                {
+                  "group": "right",
+                  "id": "3d445970-c0db-4b3d-a3d5-75dc85ec0e28"
+                },
+                {
+                  "group": "bottom",
+                  "id": "83e71cfe-9407-4910-90d5-c0616e8bab30"
+                },
+                {
+                  "group": "left",
+                  "id": "f2b8c47c-a874-4dfd-8974-4b183919bf7e"
+                }
+              ]
+            },
+            "id": "82145cd8-bea8-4727-839f-02e55d622acb",
+            "data": {
+              "type": "tm.Process",
+              "name": "Administrator\nDashboard",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            },
+            "zIndex": 12
           }
         ]
       }
